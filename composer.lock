@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9897ac47a5dd82c036f99945f75cb084",
+    "hash": "20369c564053e4bb849f762512b0dd60",
     "packages": [
         {
             "name": "composer/installers",
@@ -185,6 +185,19 @@
                 "wordpress"
             ],
             "time": "2015-06-11 15:15:30"
+        },
+        {
+            "name": "sage",
+            "version": "8.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roots/sage",
+                "reference": "8.2.1"
+            },
+            "require": {
+                "composer/installers": "~1.0.0"
+            },
+            "type": "wordpress-theme"
         },
         {
             "name": "vlucas/phpdotenv",
